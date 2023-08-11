@@ -84,5 +84,5 @@ void ajustarJanela(GLFWwindow* window, int w, int h){
     // definicao do viewing box que sera utilizado (universo)
     // left, right, bottom, top, near, far (near e far com sinal trocado)
     //glOrtho(-1.0, 1.0,    -1.0, 1.0,  -1.0, 1.0); 
-    glOrtho( 0.0, 200.0,   0.0, 100.0, -1.0, 1.0);
+    glOrtho( 0.0, 200.0,   0.0, 150.0,  -1.0, 1.0);
 }
